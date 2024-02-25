@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
-    "target": "esnext"
+      "outDir":"js",
+      "target":"ES6",
+      "module":"commonjs",
+      "removeComments": false, //xóa comment khi chuyển từ ts ->js
   }
 }
